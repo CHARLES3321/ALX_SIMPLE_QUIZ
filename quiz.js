@@ -15,6 +15,6 @@ function checkAnswer(userAnswer) {
 
 const submitButton =
 document.getElementById("submit-answer");
-submitButton.addEventListener('click',function(e){
+submitAnswer.addEventListener('click',function(e){
     if e.checkAnswer();
 }
