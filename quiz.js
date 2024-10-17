@@ -7,7 +7,7 @@ function checkAnswer(userAnswer) {
     document.getElementById("feedback");
 
     if (userAnswer === correctAnswer) {
-        feedbackElement.textContent= "Correct!Well done.";
+        feedbackElement.textContent= "Correct! Well done.";
     }   else {
         feedbackElement.textContent="That's incorrect. Try again!";
     }
@@ -16,5 +16,5 @@ function checkAnswer(userAnswer) {
 const submitButton =
 document.getElementById("submit-answer");
 submitAnswer.addEventListener('click',function(e){
-    if e.checkAnswer();
+    e.checkAnswer();
 }
